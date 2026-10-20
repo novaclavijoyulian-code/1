@@ -1,17 +1,35 @@
-h1{
+h1 {
     font-family: cursive;
     text-align: center;
 }
-p{
+
+p {
     font-family: Arial, sans-serif;
     text-align: center;
 }
-h2{
+
+h2 {
     font-family: Georgia, serif;
     text-align: center;
 }
-img{
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.producto {
+    width: 200px;
+}
+
+img {
     width: 200px;
     height: 200px;
-    margin: 10px;
+}
+
+.descripcion {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
